@@ -1,0 +1,82 @@
+/* 
+    MAIN COLORS:
+    -- #868685
+    -- #FFFFFF
+    -- #DE8D47
+    -- #DCDCDC
+    -- #201F1D
+*/
+
+body{
+    background-color: rgb(255, 255, 255);
+    color:rgb(107, 107, 107);
+    text-align: center;
+}
+
+h1{
+    color:rgb(85, 85, 85);
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 10px 5px #de8d47;
+}
+
+main{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+main .film{
+    background: #5a5ccf;
+    width: 250px;
+    margin: 10px;
+    margin-bottom: 100px;
+    padding: 30px;
+    word-wrap: break-word;    
+    border-radius: 10px;
+    transition: 0.6s all ease-in-out;
+    box-shadow: 0px 15px 20px 0px #de8e4794;
+}
+main .film:hover{
+    transform: translateY(-10px);
+}
+main .film .film-image img{
+    width: 100%;
+}
+main .film a{
+    color: rgb(201, 200, 255);
+    text-decoration: none;
+}
+main .film:hover a{
+    color: #dfff6b;
+}
+
+main .film  span{
+    color:#ff7700;
+    text-decoration: underline;
+}
+main .film strong{
+    color: black;
+}
+main .error{
+    padding:20px;
+    background: #de8d47;
+    color: black;
+    border-radius: 10px;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    padding: 20px;
+    left: 0px;
+    width: 95%;
+    background: #555;
+    margin: auto;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
