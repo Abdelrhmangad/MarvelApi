@@ -1,6 +1,6 @@
 function loaData(){
 
-    let api = "http://gateway.marvel.com/v1/public/comics?ts=1&apikey=e9c6dd7742850d64d0cca8fa39a9ce9c&hash=7571bf773d320ed0d498c9787f225ee2";
+    let api = "https://gateway.marvel.com/v1/public/comics?ts=1&apikey=e9c6dd7742850d64d0cca8fa39a9ce9c&hash=7571bf773d320ed0d498c9787f225ee2";
 
 
     $.ajax({
