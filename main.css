@@ -6,7 +6,16 @@
     -- #DCDCDC
     -- #201F1D
 */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+a{
+    color: black;
+    text-decoration: none;
+}
 body{
     background-color: rgb(255, 255, 255);
     color:rgb(107, 107, 107);
@@ -18,9 +27,37 @@ h1{
     text-align: center;
     text-transform: capitalize;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-shadow: 0px 10px 5px #de8d47;
+    text-shadow:  0px 4px 15px #00000091;
 }
+/* Start Intro section */
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
 
+    background-color: #5a5ccf;
+    padding: 50px;
+    margin-bottom:50px;
+    position: relative;
+}
+.intro .projectDescription {
+    text-align: left;
+    color: white;
+}
+.intro .projectDescription p{
+    text-indent: 42px;
+}
+.intro .marvelLogo img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 25vw;
+    height: 50px;
+}
+/* Emd Intro section */
+
+/* Start Main content Style */
 main{
     display: flex;
     position: relative;
@@ -37,7 +74,7 @@ main .film{
     word-wrap: break-word;    
     border-radius: 10px;
     transition: 0.6s all ease-in-out;
-    box-shadow: 0px 15px 20px 0px #de8e4794;
+    box-shadow: 0px 4px 15px #00000091;
 }
 main .film:hover{
     transform: translateY(-10px);
@@ -66,17 +103,24 @@ main .error{
     color: black;
     border-radius: 10px;
 }
+/* End Main content Style */
 footer{
     position: fixed;
     bottom: 0px;
-    padding: 20px;
+    padding: 5px;
     left: 0px;
-    width: 95%;
-    background: #555;
+    width: 100%;
+    background: #5a5ccf;
+    box-shadow: 0px 0px 5px #00000091;
     margin: auto;
 }
-
+footer span{
+    color: #000000;
+}
 footer a{
-    color: #fff;
+    color: white;
+}
+footer span a{
+    color: #de8d47;
     text-decoration: none;
 }
